@@ -1,0 +1,33 @@
+
+    Designing a program for Refactory Computor world
+        - This shop sells computers and Computer accesories
+        - All computers have standard prices based on their types.
+            i.e. each of the Desktop computers has a standard price of $150,
+            and each of the laptop computers has a standard price of $200.
+        - When the client buys a computer, they are at liberty to explicitly request for additional accessories.
+            However, the price of the computer purchased rises with addition of accessories.
+
+- Computer: Abstract type:
+        - Attributes:
+            - price
+            - addedFeatures(Accessories)
+                Note: each feature must conform to the following interface
+                    - name
+                    - cost
+                    - quantity
+        - Methods:
+            - getFeatures()
+            - getTotalCost()
+    - Computer Sub Types: 
+        - Desktop
+- ComputerWithAccesory: Decorators
+        - RAM: $24
+        - External Hard Disk $85
+        - Keyboard $100
+        - Mouse $70
+        - Wireless sensing device $60
+
+*/
+
+
+
